@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/banco.js"></script>
+        <title>SQLite: Insert, Select & Update</title>
+    </head>
+
+    <body background="img/background.jpg">
+        <div class="aligncenter">
+            <h1>ANDRES MORALES</h1>
+            <h1>SQLite</h1>
+            
+        </h1>
+        
+        <div class="aligncenter">
+            <form class="form">
+                <input type="hidden" id="field-id" value="" />
+                <div class="box">
+                    <input type="text" id="field-name"/>
+                    <label for="field-name">Nombre</label>
+                </div>
+
+                <div class="box">
+                    <input type="text" id="field-pass"/>
+                    <label for="field-pass">APELLIDO</label>
+                </div>
+
+                <div class="box">
+                    <input type="text" id="field-mail"/>
+                    <label for="field-mail">E-mail</label>
+                </div>
+                <div class="per"><a id="btn-salvar" class="button" >GUARDAR</a></div>
+               
+            </form>
+            <table id="table-register">
+                <thead>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>Email</th>
+                </thead>
+                <tbody id="tbody-register">
+                
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/banco.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
+
